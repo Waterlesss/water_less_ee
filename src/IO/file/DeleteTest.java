@@ -25,8 +25,8 @@ public class DeleteTest {
                 // 当深度优先的遍历完成时，则可以认为该目录一定是空目录了
 //                file.delete();
             } else {
-                System.out.println(file.getCanonicalPath());
                 // 得到这个文件的一个标准（去除一切无意义的 . 和 ..)
+                System.out.println(file.getCanonicalPath());
 //                file.delete();
             }
         }
