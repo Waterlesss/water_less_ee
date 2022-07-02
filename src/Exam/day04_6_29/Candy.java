@@ -1,4 +1,4 @@
-package Exam.day04_06_29;
+package Exam.day04_6_29;
 
 import java.util.Scanner;
 
