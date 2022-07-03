@@ -17,10 +17,12 @@ public class ContinueMaxSum {
         for (int i = 0; i < n; i++) {
             arr[i] = scan.nextInt();
         }
+        //动态规划的思想
         int sum = arr[0];
         int max = arr[0];
+
         for (int i = 1; i < arr.length; i++) {
-            //判断子数组大还是本身大
+            //判断子数组大还是当前值本身大
             sum = Math.max(sum+arr[i],arr[i]);
             if (sum > max) {
                 max = sum;
