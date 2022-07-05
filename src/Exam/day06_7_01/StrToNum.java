@@ -1,4 +1,4 @@
-package Exam.day_06_7_01;
+package Exam.day06_7_01;
 
 /**
  * @Author: Waterless
